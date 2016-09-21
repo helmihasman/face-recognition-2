@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: face-recognition-2
+  host: face-recognition-2
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-7r
+  buildpack: php_buildpack
